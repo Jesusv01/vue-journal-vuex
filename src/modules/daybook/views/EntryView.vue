@@ -40,6 +40,10 @@ export default {
   components: {
     Fab: defineAsyncComponent(() => import('../components/FabView.vue')),
   },
+
+  created() {
+    console.log(this.$route);
+  },
 };
 </script>
 
