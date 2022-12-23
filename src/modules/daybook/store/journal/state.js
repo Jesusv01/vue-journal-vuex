@@ -1,19 +1,19 @@
 export default () => ({
   isLoading: true,
   entries: [{
-    id: new Date().getTime(),
+    id: '1',
     date: new Date().toDateString(),
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore officia quo? Repellat iste optio officia laudantium tempora.',
+    text: 'Sit amet consectetur adipisicing elit. Optio dolore officia quo? Repellat iste optio officia laudantium tempora.',
     picture: null,
   },
   {
-    id: new Date().getTime() + 1000,
+    id: '2',
     date: new Date().toDateString(),
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore officia quo? Repellat iste optio officia laudantium tempora.',
+    text: 'Ipsum dolor sit amet consectetur adipisicing elit. Optio dolore officia quo? Repellat iste optio officia laudantium tempora.',
     picture: null,
   },
   {
-    id: new Date().getTime() + 2000,
+    id: '3',
     date: new Date().toDateString(),
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore officia quo? Repellat iste optio officia laudantium tempora.',
     picture: null,
